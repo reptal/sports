@@ -10,7 +10,7 @@
 | is assigned the "api" middleware group. Enjoy building your API!
 |
 */
-Route::group(['namespace' => 'Api\v1'], function () {
+Route::group(['namespace' => 'api\v1'], function () {
 
     //login user and get token
     Route::post('auth/login', 'AuthController@login');
